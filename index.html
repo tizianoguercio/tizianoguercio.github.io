@@ -4,73 +4,78 @@
 		
 		<style>
 			body {
-				background-color :#2f4f4f;
+				background-color :grey;
 			}
 			
 			h1 {
 				text-align: center;
 				color : white;
-				background-color :red;
-				font-size:40;
+				background-color :blue;
+				font-size:50;
 			}
-			
+			.tabella{
+				width: 100%;
+				border : 2px solid black ; 
+				heigth : auto;
+			}
 			
 			.pmargin{
 				margin:10px;
+				text-align: ;
 				color : white;
 				font-size:30;
-		S
 			}
 			
-			
-			}
-			.border{
-				background-color : white;
-				border: 1px solid black;
-				text-align: center;
-			}
 				
-			.presentazione{ 
-				width: 15%;
+			.tiziano{ 
+				width: 40%;
 				heigth: auto;
-				text-align:center;
+				border-radius: 50%;<!--- per immagine rotonda---->
 			}
 			
 			
 		</style>
 	</head>
-	<body>
+
 		<header>
-			<h1 style = "text-align : center;color : white ;background-color : black;">Tiziano Guercio</h1>
+			<h1>Tiziano Guercio</h1>
 		</header>
-		<main>
-			<td>
-				<p class = "pmargin">
-					Ciao a tutti, mi chiamo Tiziano Guercio.
-					<br>		
-					Sono uno studente dell'istituto tecnico "Einstein De Lorenzo" di Picerno, frequento il corso di informatica nella classe 4AP.
-					<br>
-					Sotto richiesta del nostro professore di TPSIT sto creando questo sito, dove vi illustrerò tutto quello che andremo a fare
-					<br>
-					durante tutto l'anno scolastico 2024/2025.
-				</p>
-			</td>
-				<center>
-				<img class="presentazione "
-								src ="https://static.vecteezy.com/ti/vettori-gratis/t2/2534006-social-media-chat-online-immagine-profilo-vuoto-icona-testa-e-corpo-persone-in-piedi-icona-sfondo-grigio-gratuito-vettoriale.jpg"
-								alt="Una mia foto"
-								title="TIZIANO"/>
-				</center>
-					</tr> 
-			
-			
+	<main>
+	<table class = "tabella">
+		<tbody>
+			<tr>
+				<td>
+						<center>
+							<img class="tiziano" 
+							src="tiziano.png" 
+							alt="guercio tiziano foto." 
+							title="Tiziano Guercio."/>
+						</center>	
+						</td>
+						<td>
+							<p class = "pmargin">
+								Salve a tutti, mi chiamo Tiziano Guercio e frequento l'I.I.S. EINSTEIN - DE LORENZO di Picerno. 
+								<br>
+								Sono un ragazzo molto socievole, pratico sport, più precisamente basket da ben 11 anni.
+								<br>
+								In questo sito vi racconterò un pò di me e di quello che faremo durante l'anno scolastico.
+								
+							</p>
+						
+						</td>
+					</tr>
+				</tbody>
+				</table>
+				
+				
+				
 								
 
 			
-			
+			</table>
 		</main>
 		<footer>
-			<p>&copy;Guercio Tiziano</p>
+			<p style = "color: white";>&copy;Guercio Tiziano</p>
 		</footer>
 	</body>
 </html>
