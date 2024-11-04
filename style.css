@@ -1,0 +1,34 @@
+body {
+	background-color :grey;
+}
+h1 {
+	text-align: center;
+	color : white;
+	background-color :blue;
+	font-size:50;
+}
+.tabellaDescrizione{
+	width: 100%;
+	heigth : auto;
+}
+.testo{
+	margin:10px;
+	color : white;
+	font-size:25;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+}
+.tiziano{ 
+	width: 45%;
+	heigth: auto;
+	border-radius: 50%;<!--- per immagine rotonda---->
+}
+h2{
+	border : 2px solid black;
+	background-color :white;
+	text-align: center;
+	font-size: 30;
+}
+ul{
+	font-size: 30;
+}
