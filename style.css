@@ -19,9 +19,10 @@ h1 {
 	font-family: "Times New Roman", Times, serif;
 }
 .tiziano{ 
-	width: 45%;
-	heigth: auto;
-	border-radius: 50%;<!--- per immagine rotonda---->
+	width: 42%;
+	height: auto;
+	border-radius: 50%;
+	
 }
 h2{
 	border : 2px solid black;

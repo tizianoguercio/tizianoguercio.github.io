@@ -1,0 +1,23 @@
+body{
+	background-image: url('campo2.jpg');
+}
+h1{
+	text-align: center;
+	color : white;
+	background-color :black;
+	font-size:55;
+}
+.baski{
+	font-size : 30;
+	color : white;
+}
+h2{
+	text-align: center;
+	color : white;
+	background-color :black;
+	font-size:55;
+}
+li{
+	color : white;
+	font-size:25;
+}
